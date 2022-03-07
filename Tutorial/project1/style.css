@@ -1,0 +1,128 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+    display: inline;
+}
+body{
+    background-color: #f8f8f8;
+    color: #1c1b1b;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+/* Layout */
+header{
+    background-color: #35ce44;
+    position: relative;
+}
+.hoa{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 300px;
+    padding: 10px;
+}
+header h2{
+    display: inline-block;
+    position: absolute;
+    margin-left: 5px;
+    margin-top: 50px;
+    color: #efdf62;
+}
+.menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: 1px soild #bbb;
+    overflow: hidden;
+    background-color: #f0f0f0;
+}
+.menu li{
+    float: left;
+    border-right: 1px solid #bbb;
+}
+.menu li:first-child{
+    margin-left: 500px;
+}
+.menu li:last-child{
+    border-right: none;
+}
+.menu li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.menu li a:hover{
+    background-color: white;
+}
+.menu li a:active{
+    background-color: white;
+}
+footer{
+    background-color: #35ce44;
+}
+.touch{
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 200px;
+}
+.touch h2{
+    text-align: center;
+    padding: 10px;
+}
+.touch ul{
+    margin-left: 30px;
+}
+
+.touch{
+    list-style-type: none;
+    border: 1px soild #bbb;
+    overflow: hidden;
+}
+.touch li{
+    float: left;
+    /* border-right: 1px solid #bbb; */
+}
+.touch li:last-child{
+    border-right: none;
+}
+.touch li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.touch li a:hover{
+    background-color: white;
+}
+
+.short{
+    display: inline-block;
+    margin: 30px;
+    margin-left: 100px;
+}
+.short h2{
+    text-align: center;
+    padding: 10px;
+}
+.short img{
+    width: 300px;
+    height: 100px;
+    margin-left:65px ;
+    border-radius: 50%;
+}
+.icon{
+    margin: 30px;
+    margin-left: 200px;
+}
