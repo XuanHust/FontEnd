@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style-type: none;
+}
+body{
+    margin:0;
+    font-family: tahoma;
+}
+.img-fluid{
+    max-width: 100%;
+}
+
+.container{
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+/* =======Start Header=========== */
+header{
+    margin-bottom: 10px;
+}
+header .header-top{
+    background-color: #272f54;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 17px;
+}
+header .header-main{
+    background-color: #cb7802;
+    padding: 5px 5px 5px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .header-main .menu{
+    margin: 0;
+    padding: 0;
+}
+header .header-main .menu li{
+    display: inline-block;
+}
+header .header-main .menu li a{
+    text-decoration: none;
+    color: #fefbfb;
+    display: inline-block;
+    padding: 0 10px;
+    font-size: 12px;
+}
+header .header-main .menu li a:hover{
+    text-decoration: underline;
+    color: antiquewhite;
+}
+header .form-search .form-search-input{
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+}
+header .form-search .form-search-btn{
+    background-color: #272f54;
+    color: #a3a3af;
+    border: 1px solid #cccccc;
+    text-transform: uppercase;
+    font-size: 11px;
+    height: 21px;
+    border-radius: 5px;
+}
+header .form-search .form-search-btn:hover{
+    background-color: #2212f6;
+}
+/* ===========End Header======= */
+
+/* ===========Start News========== */
+.news h2.title{
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #272f54;
+    margin: 20px 0;
+}
+.news .row{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+.news .row .col{
+    border: 1px solid #c2c2c2;
+    padding: 15px 25px;
+}
+.news .row .col h3{
+    margin: 10px 0;
+}
+.news .row .col h3 a{
+    color: #ad3f00;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.news .row .col h3 p{
+    color: #000;
+    font-size: 13px;
+}
+/* ===========End News=========== */
+
+/* =========Start Footer======== */
+
+/* =========End Footer========== */
+footer{
+    background-color: #272f54;
+    margin-top: 12px;
+    text-align: center;
+    padding: 18px 0;
+}
+footer span{
+    color: #fefbfb;
+    text-transform: uppercase;
+    font-size: 12px;
+}

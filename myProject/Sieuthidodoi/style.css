@@ -1,0 +1,201 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style-type: none;
+}
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: url('./image/background.png');
+}
+.img-fluid{
+    max-width: 100%;
+}
+.container{
+    margin: 0 auto;
+    width: 1020px;
+    background-color: #ffffff;
+    padding: 0 10px;
+}
+/* Start Header  */
+
+.container .header{
+    margin-bottom: 17px;
+}
+.container .header .header__top{
+    display: flex;
+    padding: 27px 5px 26px 21px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .header .header__top .header__top__tel{
+    color: #307814;
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.container .header .header__nav{
+    display: flex;
+    padding: 20px 20px 20px 25px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #307814;
+    position: relative;         
+}
+.container .header .header__nav .hightline{
+    position: absolute;
+    background-color: #1d490c;
+    width: 102px;
+    height: 7px;
+    top: 0;
+}
+
+.container .header .header__nav .header__nav__menu{
+    display: flex;
+}
+
+.container .header .header__nav .header__nav__menu li{
+    margin-right: 25px;
+}
+.container .header .header__nav .header__nav__menu li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+    color: #bed0ba;
+}
+.container .header .header__nav .header__nav__menu li a:hover{
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.container .header .header__nav .header__nav__searchform .header__nav__search{
+    border: 1px solid #6fa15b;
+    border-radius: 5px;
+    min-height: 30px;
+    width: 200px;
+}
+
+.container .header .header__nav .header__nav__searchform .header__nav__btn{
+    border: 1px solid #6fa15b;
+    border-radius: 4px;
+    height: 30px;
+    width: 50px;
+    color: #000;
+    background-color: #fff;
+}
+
+.container .header .header__nav .header__nav__searchform .header__nav__btn:hover{
+    background-color: #9c9696;
+}
+
+/* End Header  */
+
+/* Start Banner */
+.container .banner{
+    margin-bottom: 40px;
+    border-bottom: 2px solid #d5d5d5;
+}
+/* End Banner */
+
+/* Start Content */
+.container .newproduct{
+    margin-bottom: 45px;
+}
+.container .newproduct .newproduct__title{
+    font-size: 15px;
+    font-weight: bold;
+    color: #478334;
+    text-transform: uppercase;
+    margin-top: 7px;
+    margin-bottom: 15px;
+}
+.container .newproduct .newproduct__title i{
+    background-color: #fff;
+    border: 3px solid #478334;
+}
+
+.container .newproduct .newproduct__product{
+    display: grid;
+    grid-template-rows: 320px;
+    grid-template-columns: 176px 176px 176px 176px 176px;
+    grid-gap: 30px;
+    margin: 0 15px;
+}
+.--name{
+    font-size: 12px;
+    font-weight: bold;
+    color: #7d7d7d;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.--cost{
+    font-size: 13px;
+    font-weight: bold;
+    color: #c192a1;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.--btn{
+    display: inline-block;
+    margin-left: 25px;
+    background-color: #307814;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 120px;
+    height: 35px;
+    border-radius: 4px;
+}
+
+.--btn:hover{
+    text-decoration: underline;
+    background-color: #46aa1e;
+}
+
+/* .container .productlist{
+    margin-bottom: 52px;
+} */
+
+.container .productlist .productlist__title{
+    background-color: #307814;
+    font-size: 13px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    width: 190px;
+    height: 40px;
+    padding-top: 14px;
+    border-radius:0px 40px 0px 0px;
+    margin-bottom: 10px;
+}
+
+.container .productlist .productlist__product{
+    background-color: #f1f1f1;
+    padding: 40px 0;
+    display: grid;
+    grid-template-rows: 320px;
+    grid-template-columns: 176px 176px 176px 176px 176px;
+    grid-gap: 30px;
+}
+/* End Content */
+
+/* Start Footer */
+footer{
+    margin: 0 auto;
+    width: 1020px;
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-around;
+    height: 152px;
+    align-items: center;
+}
+/* End Footer */
